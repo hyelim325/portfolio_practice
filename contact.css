@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 125vh;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+.topnav {
+  background: rgba(19, 18, 18, 0.94);
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.75;
+}
+
+nav {
+  margin-bottom: 5px;
+}
+
+h1, nav li {
+  font-size: 1em;
+  color: white;
+}
+
+h1 {
+  text-align: left;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  display: inline-block;
+}
+
+nav li {
+  text-align: right;
+  padding: 5px 5px;
+  color: white;
+  font-weight: 200;
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover, nav ul li:focus {
+  background-color: rgb(90, 93, 105);
+}
+
+
+#kontakt {
+  display: flex;
+  flex-flow: column wrap;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  margin: 80px;
+}
+
+h2 {
+  padding: 30px;
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  font-size: 110%;
+  font-weight: 500;
+  padding: 20px;
+  /* text-align: center; */
+}
+
+#name, #email, #amne, #message {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  background: rgb(242, 236, 235);
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 105%;
+}
+
+input placeholder {
+  color: rgb(106, 110, 111);
+  font-size: 100%;
+}
+
+.half {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.half:nth-child(1) {
+  padding-right: 10px;
+}
+
+.half:nth-child(2) {
+  padding-left: 9px;
+}
+
+#submit {
+  background-color: rgb(105, 106, 105);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8%;
+  cursor: pointer;
+  margin: 30px auto 30px auto;
+  display: block;
+  font-weight: 700;
+  font-size: 110%;
+}
